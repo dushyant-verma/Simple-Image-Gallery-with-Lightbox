@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <title>Simple Image Gallery with lightbox</title>
+  </head>
+  <body>
+    <div class="gallery">
+      <img src="https://img.freepik.com/free-photo/cascade-boat-clean-china-natural-rural_1417-1356.jpg?t=st=1719658592~exp=1719662192~hmac=9fe18e2a0b2da3e1c6cc051bd9cd9cec6b6283e6cd329a1b73edafd305566262&w=1060" alt="Image 1" class="gallery-item" />
+      <img src="https://img.freepik.com/free-photo/breathtaking-shot-beautiful-stones-turquoise-water-lake-hills-background_181624-12847.jpg?t=st=1719655235~exp=1719658835~hmac=ef6f1ee3b3f6580e28392b7f1113d8a1ba8565c47f248107b2e555dfcba704c3&w=1060" alt="Image 2" class="gallery-item" />
+      <img src="https://img.freepik.com/free-photo/morskie-oko-tatry_1204-510.jpg?t=st=1719657076~exp=1719660676~hmac=c42206900fe35e44a56e27b6bf4b43e36a9205bab55e44af3b45c06f62b27985&w=1060" alt="Image 3" class="gallery-item" />
+      <img src="https://img.freepik.com/free-photo/wet-vietnam-mountain-flow-stream-rural_1417-1357.jpg?t=st=1719658051~exp=1719661651~hmac=79be6cf1776d0121e1967964ee9e2a6897f2afbbcd1ad2bc6b66f356824e5d4c&w=1060" alt="Image 3" class="gallery-item" />
+      <img src="https://img.freepik.com/free-photo/small-house-built-peaceful-green-hill-high-up-mountains_181624-8241.jpg?t=st=1719658725~exp=1719662325~hmac=6d69d6f02a0c7ec88f565b66fd718acd094ba31162f8d6ebd6c1b6878f716ebe&w=1060" alt="Image 3" class="gallery-item" />
+    </div>
+
+    <div class="lightbox" id="lightbox">
+      <span class="close">&times;</span>
+      <img id="lightbox-img" class="light-content" />
+
+      <a class="prev">&#10094;</a>
+      <a class="next">&#10095;</a>
+
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
